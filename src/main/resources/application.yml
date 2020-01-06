@@ -1,0 +1,13 @@
+server:
+   port: 8070
+spring:
+   datasource:
+      url: jdbc:mysql://localhost:3306/Facebook
+      username: root
+      password: 123456789
+   jpa:
+      properties:
+         hibernate:
+            show_sql: false
+            format_sql: false
+      database-platform: org.hibernate.dialect.MySQLDialect
